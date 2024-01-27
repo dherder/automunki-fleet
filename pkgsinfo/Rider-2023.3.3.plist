@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>runner</string>
+		<key>creation_date</key>
+		<date>2024-01-27T22:00:49Z</date>
+		<key>munki_version</key>
+		<string>6.4.2.4634</string>
+		<key>os_version</key>
+		<string>12.7.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>test</string>
+	</array>
+	<key>category</key>
+	<string>Development</string>
+	<key>description</key>
+	<string>A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</string>
+	<key>developer</key>
+	<string>JetBrains</string>
+	<key>display_name</key>
+	<string>Rider</string>
+	<key>installer_item_hash</key>
+	<string>a90346a30523eaa2e3abf57abd3949f46e0c6e6d2ea0c62c36d40b07061626cb</string>
+	<key>installer_item_location</key>
+	<string>JetBrains.Rider-2023.3.3.dmg</string>
+	<key>installer_item_size</key>
+	<integer>1045554</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.jetbrains.rider</string>
+			<key>CFBundleName</key>
+			<string>JetBrains Rider</string>
+			<key>CFBundleShortVersionString</key>
+			<string>2023.3.3</string>
+			<key>CFBundleVersion</key>
+			<string>RD-233.14015.60</string>
+			<key>minosversion</key>
+			<string>10.13</string>
+			<key>path</key>
+			<string>/Applications/Rider.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Rider.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.13</string>
+	<key>name</key>
+	<string>Rider</string>
+	<key>supported_architectures</key>
+	<array>
+		<string>%ARCHITECTURE%</string>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2023.3.3</string>
+</dict>
+</plist>
