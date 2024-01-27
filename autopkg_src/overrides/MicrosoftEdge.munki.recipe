@@ -59,11 +59,11 @@
 			<key>MSOfficeMacURLandUpdateInfoProvider</key>
 			<dict>
 				<key>git_hash</key>
-				<string>642b719956d4e4e8d464ec396ea21b8127ad9855</string>
+				<string>f0c2152fc0b8567de133a3c7571976b9a066e289</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOfficeMacURLandUpdateInfoProvider.py</string>
+				<string>~/work/automunki-fleet/automunki-fleet/autopkg_src/repos/com.github.autopkg.recipes/MSOfficeUpdates/MSOfficeMacURLandUpdateInfoProvider.py</string>
 				<key>sha256_hash</key>
-				<string>3920f8fb720b7cd91f42e53c5b32bf8cff269633c7aad0e224d545ba5cc50ff1</string>
+				<string>5d4540b32b10426ec1d82651358808f64d7087ca5e98653deb924cdfd5e88a29</string>
 			</dict>
 		</dict>
 		<key>parent_recipes</key>
@@ -73,7 +73,7 @@
 				<key>git_hash</key>
 				<string>f33f7baebfa2312a20b523e4cacaa2fe0b62da98</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSEdge.download.recipe</string>
+				<string>~/work/automunki-fleet/automunki-fleet/autopkg_src/repos/com.github.autopkg.recipes/MSOfficeUpdates/MSEdge.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>f32c29e3c01a5105128c6a0473b84f857438f85fe5c080945c17fe5bd59405f8</string>
 			</dict>
@@ -82,7 +82,7 @@
 				<key>git_hash</key>
 				<string>55e47128864841e568cf20ccd2b852fea48faa50</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSOfficeMacProduct.download.recipe</string>
+				<string>~/work/automunki-fleet/automunki-fleet/autopkg_src/repos/com.github.autopkg.recipes/MSOfficeUpdates/MSOfficeMacProduct.download.recipe</string>
 				<key>sha256_hash</key>
 				<string>9d98baa020cb9228ff75122bdd7b92a20196cedb9f5983c140e7c1e771cf26cf</string>
 			</dict>
@@ -91,7 +91,7 @@
 				<key>git_hash</key>
 				<string>f33f7baebfa2312a20b523e4cacaa2fe0b62da98</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/MSOfficeUpdates/MSEdge.munki.recipe</string>
+				<string>~/work/automunki-fleet/automunki-fleet/autopkg_src/repos/com.github.autopkg.recipes/MSOfficeUpdates/MSEdge.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>d14ac6becdbbd09e5d0bd7e97befe92d3883d666069f07459cc36df14ce8fadc</string>
 			</dict>
