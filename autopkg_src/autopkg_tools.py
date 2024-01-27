@@ -31,7 +31,8 @@ import psutil
 
 SLACK_WEBHOOK = os.environ.get("SUMMARY_WEBHOOK_TOKEN", None)
 SUMMARY_WEBHOOK = os.environ.get("SUMMARY_WEBHOOK_TOKEN", None)
-MUNKI_WEBSITE = os.environ.get("MUNKI_WEBSITE", "munki.example.com")
+#MUNKI_WEBSITE = os.environ.get("MUNKI_WEBSITE", "munki.example.com")
+MUNKI_WEBSITE = os.environ.get("MUNKI_WEBSITE", "d2fwn0aabf7olp.cloudfront.net")
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
