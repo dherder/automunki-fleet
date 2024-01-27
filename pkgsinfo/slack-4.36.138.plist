@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>runner</string>
+		<key>creation_date</key>
+		<date>2024-01-27T22:05:17Z</date>
+		<key>munki_version</key>
+		<string>6.4.2.4634</string>
+		<key>os_version</key>
+		<string>12.7.2</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>test</string>
+	</array>
+	<key>category</key>
+	<string>Communication</string>
+	<key>description</key>
+	<string>Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go.</string>
+	<key>developer</key>
+	<string>Slack</string>
+	<key>display_name</key>
+	<string>Slack</string>
+	<key>installer_item_hash</key>
+	<string>4c69cedfdabcaf74b20bd77079e54774b27a110b7dbf4df9ab892afcd09d8d88</string>
+	<key>installer_item_location</key>
+	<string>slack-4.36.138.dmg</string>
+	<key>installer_item_size</key>
+	<integer>170338</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.tinyspeck.slackmacgap</string>
+			<key>CFBundleName</key>
+			<string>Slack</string>
+			<key>CFBundleShortVersionString</key>
+			<string>4.36.138</string>
+			<key>CFBundleVersion</key>
+			<string>436000138</string>
+			<key>minosversion</key>
+			<string>11.0</string>
+			<key>path</key>
+			<string>/Applications/Slack.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Slack.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>11.0</string>
+	<key>name</key>
+	<string>slack</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/bash
+current_user=$(/usr/local/munki/munki-python -c 'from SystemConfiguration import SCDynamicStoreCopyConsoleUser; import sys; username = (SCDynamicStoreCopyConsoleUser(None, None, None) or [None])[0]; username = [username,""][username in [u"loginwindow", None, u""]]; sys.stdout.write(username + "\n");')
+/usr/sbin/chown -R $current_user:admin /Applications/Slack.app</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>4.36.138</string>
+</dict>
+</plist>
