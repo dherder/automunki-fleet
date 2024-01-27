@@ -43,18 +43,18 @@
 			<key>com.github.swy.download.BraveUniversal</key>
 			<dict>
 				<key>git_hash</key>
-				<string>39f03c7d098d0178b003a23efc26896e65f155c9</string>
+				<string>c21259be3c9ca28a41775f2c88af1187d91d742e</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.swy-recipes/BraveUniversal/BraveUniversal.download.recipe</string>
+				<string>~/work/automunki-fleet/automunki-fleet/autopkg_src/repos/com.github.autopkg.swy-recipes/BraveUniversal/BraveUniversal.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>828189dbb68f1dc1b6f1421738a20dff520a1da9333bce83f065664dc36fedba</string>
+				<string>25679b27b90e9ff09dde00da35cc592fc72131da422107a629bfdde15b037f5b</string>
 			</dict>
 			<key>com.github.swy.munki.BraveUniversal</key>
 			<dict>
 				<key>git_hash</key>
 				<string>39f03c7d098d0178b003a23efc26896e65f155c9</string>
 				<key>path</key>
-				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.swy-recipes/BraveUniversal/BraveUniversal.munki.recipe</string>
+				<string>~/work/automunki-fleet/automunki-fleet/autopkg_src/repos/com.github.autopkg.swy-recipes/BraveUniversal/BraveUniversal.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>28bf690789fdb0627d2f05aa0897eb321168a1cc3fa9dc082daa07ddbb2455c3</string>
 			</dict>
