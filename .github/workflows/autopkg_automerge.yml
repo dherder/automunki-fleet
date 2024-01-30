@@ -18,8 +18,8 @@ jobs:
         if: always()
         with:
           #access_token: ${{ secrets.GITHUB_TOKEN }}
-          #token: ${{ secrets.RW_REPO_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RW_REPO_TOKEN }}
+          #token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           enforce_admins: false
       - name: Get Branch Name
@@ -29,8 +29,8 @@ jobs:
         uses: everlytic/branch-merge@c4a244dc23143f824ae6c022a10732566cb8e973 # v1.1.5
         with:
           #github_token: ${{ secrets.GITHUB_TOKEN }}
-          #token: ${{ secrets.RW_REPO_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RW_REPO_TOKEN }}
+          #token: ${{ secrets.GITHUB_TOKEN }}
           source_ref: ${{ github.ref }}
           target_branch: "main"
           commit_message_template: "feat: Merged ${{ env.BRANCH_NAME }}"
@@ -43,7 +43,7 @@ jobs:
         if: always() # Force to always run this step to ensure "include administrators" is always turned back on
         with:
           #access_token: ${{ secrets.GITHUB_TOKEN }}
-          #token: ${{ secrets.RW_REPO_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RW_REPO_TOKEN }}
+          #token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           enforce_admins: true
