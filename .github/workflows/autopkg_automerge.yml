@@ -17,7 +17,8 @@ jobs:
         uses: benjefferies/branch-protection-bot@ab95ff5efbc98a970305f21549646164fc7c0556
         if: always()
         with:
-          access_token: ${{ secrets.GITHUB_TOKEN }}
+          #access_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.RW_REPO_TOKEN }}
           branch: main
           enforce_admins: false
       - name: Get Branch Name
