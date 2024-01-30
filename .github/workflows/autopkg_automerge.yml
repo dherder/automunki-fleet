@@ -26,7 +26,8 @@ jobs:
       - name: Merge the AutoPkg Branch
         uses: everlytic/branch-merge@c4a244dc23143f824ae6c022a10732566cb8e973 # v1.1.5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.RW_REPO_TOKEN }}
           source_ref: ${{ github.ref }}
           target_branch: "main"
           commit_message_template: "feat: Merged ${{ env.BRANCH_NAME }}"
@@ -38,6 +39,7 @@ jobs:
         uses: benjefferies/branch-protection-bot@ab95ff5efbc98a970305f21549646164fc7c0556
         if: always() # Force to always run this step to ensure "include administrators" is always turned back on
         with:
-          access_token: ${{ secrets.GITHUB_TOKEN }}
+          #access_token: ${{ secrets.GITHUB_TOKEN }}
+          access token: ${{ secrets.RW_REPO_TOKEN }}
           branch: main
           enforce_admins: true
