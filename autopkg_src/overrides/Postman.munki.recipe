@@ -62,18 +62,18 @@
 			<key>com.github.dataJAR-recipes.download.postman</key>
 			<dict>
 				<key>git_hash</key>
-				<string>86f0ee3f3344a8895a39f2d6ab7c8ea0dad58e28</string>
+				<string>97d1790acdd47aa96895df8b984cb7f637d8ec9c</string>
 				<key>path</key>
-				<string>~/work/automunki/automunki/autopkg_src/repos/com.github.autopkg.dataJAR-recipes/Postman/Postman.download.recipe</string>
+				<string>~/work/automunki-fleet/automunki-fleet/autopkg_src/repos/com.github.autopkg.dataJAR-recipes/Postman/Postman.download.recipe</string>
 				<key>sha256_hash</key>
-				<string>31aa97301c9211009904fb12659e16162e33cdc63c5fb1ff58ea2a2fdf87e9a3</string>
+				<string>9599dee811e65e7e7563149d8505ddee2ec5575f3d65186bf7d9197508f08499</string>
 			</dict>
 			<key>com.github.dataJAR-recipes.munki.postman</key>
 			<dict>
 				<key>git_hash</key>
 				<string>86f0ee3f3344a8895a39f2d6ab7c8ea0dad58e28</string>
 				<key>path</key>
-				<string>~/work/automunki/automunki/autopkg_src/repos/com.github.autopkg.dataJAR-recipes/Postman/Postman.munki.recipe</string>
+				<string>~/work/automunki-fleet/automunki-fleet/autopkg_src/repos/com.github.autopkg.dataJAR-recipes/Postman/Postman.munki.recipe</string>
 				<key>sha256_hash</key>
 				<string>bda6e69a35a716d573565d0bde7b34536d40fcc89e0f80030218279f7d110bdf</string>
 			</dict>
